@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_d795b87175014fc241efe977124f5ffa9f060013/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b1ed5d2c3afc2a88c841240be2b9a13e0e21bf7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_68f9ab0f9dbbddbc85e922aa8046b1ab1553988a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_8cbf80da83d9b9e23777e9ccd26cadc712601ebc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_0cd0dd2c895dbbe6c6a77eecae549fa8b65675cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_efa2448d640dab1c6614a65b7d939fc807c2dce1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_d8fa44f0b6f33d913050d104972935426c3e54ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7894a449595cad4d3bcb6920d8f3e7e626797133">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5fc033fa1bd79e9b5d5601436b23ad93009884c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_88abec78aa04f5e6d26bf27d73fced66adf9f203/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_264cee297f62a578a456db5bb58b3e7fd54fa64f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_d0242067d5174e61333fbf5f254b23fb3ad93cd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_79fe977f0039cc7812f45599c39481804ac9e4b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_9042f454ebf986dd00f32010faef6bf0ddeb6214/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c1f2880a934d8d85d8ae90a1578dc4f208d7460d">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_16e8d99f54ab95e66a6732452f7b6a30fe87f941/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_caeab766ccd3616e9e27fd07ce9a8aec06b29850/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_10b23aec56ae7ea376fb4247fa9a06cc0aa1f090/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/pimingzhen/workspace/test_android_studio/TestOpenGL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_a10d8565363e5e034164279ccd95dec3b09a6fd5/classes.dex" />
+    </item>
+
+</items>
