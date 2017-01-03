@@ -1,0 +1,62 @@
+
+zhangyu1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhangyu_body
+  rotate: false
+  xy: 2, 2
+  size: 268, 406
+  orig: 268, 406
+  offset: 0, 0
+  index: -1
+zhangyu_quanzhang
+  rotate: false
+  xy: 272, 2
+  size: 64, 248
+  orig: 64, 248
+  offset: 0, 0
+  index: -1
+zhangyu_foot05
+  rotate: false
+  xy: 272, 252
+  size: 181, 145
+  orig: 181, 145
+  offset: 0, 0
+  index: -1
+zhangyu_football
+  rotate: false
+  xy: 338, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+zhangyu_foot04
+  rotate: false
+  xy: 338, 113
+  size: 164, 101
+  orig: 164, 101
+  offset: 0, 0
+  index: -1
+zhangyu_foot06
+  rotate: false
+  xy: 2, 410
+  size: 160, 93
+  orig: 160, 93
+  offset: 0, 0
+  index: -1
+zhangyu_foot03
+  rotate: false
+  xy: 272, 399
+  size: 208, 75
+  orig: 208, 75
+  offset: 0, 0
+  index: -1
+zypp
+  rotate: false
+  xy: 164, 410
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
