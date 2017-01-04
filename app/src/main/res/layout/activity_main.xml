@@ -8,15 +8,8 @@
     android:orientation="vertical"
     tools:context="com.touchatoms.training.testopengl.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-
     <Button
         android:id="@+id/button_flash"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content"/>
 </LinearLayout>
