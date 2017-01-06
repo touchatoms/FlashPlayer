@@ -1,0 +1,731 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="raise_btn_effect" itemID="57bbbe2d-0000029d" lastModified="1483580666" lastUniqueIdentifier="62">
+  <persistentData>
+    <PD n="animationData" v='&lt;animationData&gt;&#xA;  &lt;animation name="default" fadeInTime="0" duration="48" scale="1" loop="0" autoTween="1" tweenEasing="NaN"&gt;&#xA;    &lt;timeline name="e" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="w" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="q" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="1" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="h2" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="3" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="4" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="5" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="6" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="7" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="8" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="9" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="10" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="11" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="12" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="13" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="14" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="15" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="16" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="17" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="18" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="19" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="20" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="21" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="22" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="23" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="24" scale="1" offset="0"/&gt;&#xA;    &lt;timeline name="0" scale="1" offset="0"/&gt;&#xA;  &lt;/animation&gt;&#xA;&lt;/animationData&gt;'/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="raise_btn_effect" currentFrame="47">
+      <layers>
+        <DOMLayer name="label" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="48" name="default" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="0" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang1" blendMode="add" centerPoint3DX="-3.1" centerPoint3DY="0.55">
+                  <matrix>
+                    <Matrix a="2.10406494140625" d="1.22988891601562" tx="-3.1" ty="0.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.2890625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="25" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang1" blendMode="add" centerPoint3DX="-3.1" centerPoint3DY="0.55">
+                  <matrix>
+                    <Matrix a="2.10406494140625" d="1.22988891601562" tx="-3.1" ty="0.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang1" blendMode="add" centerPoint3DX="-3.1" centerPoint3DY="0.55">
+                  <matrix>
+                    <Matrix a="2.10406494140625" d="1.22988891601562" tx="-3.1" ty="0.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.2890625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="24" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="46" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="46" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/24" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="23" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="44" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="44" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/23" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="46" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="22" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="42" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="42" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/22" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="44" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="21" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/21" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="42" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="20" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="38" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="38" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/20" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="40" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="19" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="36" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="36" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/19" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="18" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="34" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="34" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/18" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="17" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="32" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="32" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/17" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="16" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="30" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/16" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="15" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/15" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" duration="18" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="14" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="26" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="26" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/14" blendMode="add" centerPoint3DX="-1.75" centerPoint3DY="-20.75">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.8" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="13" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/13" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="12" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/12" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="11" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/11" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="26" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="10" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="18" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="18" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/10" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="9" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/9" blendMode="add" centerPoint3DX="-1.75" centerPoint3DY="-20.75">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.8" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="8" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/8" blendMode="add" centerPoint3DX="-1.75" centerPoint3DY="-20.75">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.8" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="32" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="7" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/7" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="34" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="6" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/6" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" duration="36" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="5" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/5" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="38" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="4" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="6" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/4" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="3" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/3" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="42" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="h2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="2" blendMode="add" centerPoint3DX="-1.85" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.2591552734375" d="1.19999694824219" tx="-1.85" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="44" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="1" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/1" blendMode="add" centerPoint3DX="-1.8" centerPoint3DY="-20.8">
+                  <matrix>
+                    <Matrix a="1.39060974121094" d="1.19999694824219" tx="-1.9" ty="-20.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="46" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="q" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/hong" blendMode="add" centerPoint3DX="-5.05" centerPoint3DY="-1.7">
+                  <matrix>
+                    <Matrix a="3.29019165039062" d="3.29019165039062" tx="-4.95" ty="-1.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.16015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="25" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/hong" blendMode="add" centerPoint3DX="-5.05" centerPoint3DY="-1.7">
+                  <matrix>
+                    <Matrix a="3.29019165039062" d="3.29019165039062" tx="-4.95" ty="-1.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.359375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/hong" blendMode="add" centerPoint3DX="-5.05" centerPoint3DY="-1.7">
+                  <matrix>
+                    <Matrix a="3.29019165039062" d="3.29019165039062" tx="-4.95" ty="-1.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="w" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang" blendMode="add" centerPoint3DX="-0.25" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="25" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang" blendMode="add" centerPoint3DX="-0.25" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang" blendMode="add" centerPoint3DX="-0.25" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="e" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="22" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang" centerPoint3DX="-0.25" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="25" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang" centerPoint3DX="-0.25" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.46875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="yuanjian/guang" centerPoint3DX="-0.25" centerPoint3DY="-0.05">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="r" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="47" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="47" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -41,17 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     layout = new LinearLayout(this);
     addContentView(layout, params);
 
-    initOpenGlESView();
     initFlashView();
-    initFlashView1();
     findViewById(R.id.button_flash).setOnClickListener(this);
-
-  }
-
-  private void initOpenGlESView() {
-    TextView textView = new TextView(this);
-    textView.setText("11111111111111111111111111111111111111111111111111111111111111111111111111111111");
-    layout.addView(textView);
   }
 
   private void initFlashView() {
@@ -75,35 +66,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     addContentView(zyKing, params);
   }
 
-  private void initFlashView1() {
-    FrameLayout.LayoutParams params = new FrameLayout.LayoutParams
-        (FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.MATCH_PARENT);
-    zyKing1 = new Kuai2GLView(this);
-    zyKing1.setSrceen(new ZhangyuScreen(zyKing1));
-
-    zyKing1.setOnStopListener(new Kuai2GLView.OnStopListener() {
-
-      @Override
-      public void onStop(Kuai2GLView view) {
-        Log.d(TAG, "onStop: ");
-      }
-
-      @Override
-      public void onStartLocate(Kuai2GLView view) {
-
-      }
-    });
-
-    addContentView(zyKing1, params);
-  }
-
   @Override
   public void onClick(View view) {
     Log.d(TAG, "playFlash: ");
     zyKing.initElements();
-    zyKing.resize(1000, 1000);
-    zyKing1.initElements();
-    zyKing1.resize(300, 600);
+    zyKing.resize(1200, 1200);
   }
 
 

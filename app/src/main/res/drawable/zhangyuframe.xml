@@ -2,10 +2,7 @@
 <flash
     endTime="0.96"
     flashName="zhangyu"
-    height="438.95"
-    layerNumber="7"
-    width="448.41583" >
-
+    layerNumber="7">
     <layer
         framesNumber="1"
         layerName="body" >
@@ -20,6 +17,22 @@
                 y2="438.95" />
         </frame>
     </layer>
+
+    <layer
+        framesNumber="1"
+        layerName="body" >
+        <frame endTime="0.96" >
+            <element
+                textureName="body"
+                x0="114.54379"
+                x1="12.5438"
+                x2="12.5438"
+                y0="32.950012"
+                y1="132.950012"
+                y2="318.95" />
+        </frame>
+    </layer>
+
     <layer
         framesNumber="24"
         layerName="football" >
@@ -203,16 +216,16 @@
             <element
                 textureName="football"
                 x0="13.893791"
-                x1="122.89379"
-                x2="122.89379"
+                x1="0.89379"
+                x2="0.89379"
                 y2="109.0" />
         </frame>
         <frame endTime="0.96" >
             <element
                 textureName="football"
-                x0="13.893791"
-                x1="122.89379"
-                x2="122.89379"
+                x0="333.893791"
+                x1="333.89379"
+                x2="333.89379"
                 y2="109.0" />
         </frame>
     </layer>

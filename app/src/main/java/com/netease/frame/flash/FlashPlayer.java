@@ -1,9 +1,14 @@
 package com.netease.frame.flash;
 
+import android.util.Log;
+
 import com.netease.glsurfaceView.utils.Plane;
 import com.netease.glsurfaceView.utils.TextureAtlas;
 
 public class FlashPlayer implements Flash {
+
+  private static final String TAG = "FlashPlayer";
+
   private int state;
   public LayerPlayer[] layerPlayer;
   public float alphaMultiplier = 1f;
@@ -84,6 +89,10 @@ public class FlashPlayer implements Flash {
       } else {
         runTime += deltaTime;
       }
+
+      Log.d(TAG, "updateRunTime: runTime   " + runTime);
+      Log.d(TAG, "updateRunTime: deltaTime " + deltaTime);
+
     }
   }
 

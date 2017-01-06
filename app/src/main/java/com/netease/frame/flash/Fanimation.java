@@ -106,12 +106,12 @@ public class Fanimation extends Animation {
         Vertex4 vertex4 = new Vertex4();
         String textureName = flashElement.name + "_"
             + attrs.getAttributeValue(null, "textureName");
-        vertex4.x0 = (attrs.getAttributeFloatValue(null, "x0", 0) - flashElement.width / 2f);
-        vertex4.y0 = (attrs.getAttributeFloatValue(null, "y0", 0) - flashElement.height / 2f);
-        vertex4.x1 = (attrs.getAttributeFloatValue(null, "x1", 0) - flashElement.width / 2f);
-        vertex4.y1 = (attrs.getAttributeFloatValue(null, "y1", 0) - flashElement.height / 2f);
-        vertex4.x2 = (attrs.getAttributeFloatValue(null, "x2", 0) - flashElement.width / 2f);
-        vertex4.y2 = (attrs.getAttributeFloatValue(null, "y2", 0) - flashElement.height / 2f);
+        vertex4.x0 = (attrs.getAttributeFloatValue(null, "x0", 0));
+        vertex4.y0 = (attrs.getAttributeFloatValue(null, "y0", 0));
+        vertex4.x1 = (attrs.getAttributeFloatValue(null, "x1", 0));
+        vertex4.y1 = (attrs.getAttributeFloatValue(null, "y1", 0));
+        vertex4.x2 = (attrs.getAttributeFloatValue(null, "x2", 0));
+        vertex4.y2 = (attrs.getAttributeFloatValue(null, "y2", 0));
         vertex4.x3 = vertex4.x0 + (vertex4.x2 - vertex4.x1);
         vertex4.y3 = vertex4.y0 + (vertex4.y2 - vertex4.y1);
         alphaMultiplier = attrs.getAttributeFloatValue(null, "alphaMultiplier",

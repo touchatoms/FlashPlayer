@@ -8,10 +8,14 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import android.content.res.Resources;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.Xml;
 import android.view.InflateException;
 
 public abstract class Animation {
+
+  private static final String TAG = "Animation";
+
   private static HashMap<Integer, Animation> animationManager = new HashMap<Integer, Animation>();
 
   public static Animation createAnimationFromResouce(int resId,
@@ -35,10 +39,12 @@ public abstract class Animation {
   private static Animation inflate(XmlPullParser parser) {
     Animation result = null;
     final AttributeSet attrs = Xml.asAttributeSet(parser);
+    Log.d(TAG, "inflate: " + attrs);
     try {
       int type;
       while ((type = parser.next()) != XmlPullParser.START_TAG
           && type != XmlPullParser.END_DOCUMENT) {
+        Log.d(TAG, "inflate: " + type);
       }
 
       if (type != XmlPullParser.START_TAG) {
