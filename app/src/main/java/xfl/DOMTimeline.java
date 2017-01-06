@@ -4,7 +4,6 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import com.netease.glsurfaceView.utils.TextureAtlas;
-import com.netease.glsurfaceView.utils.TextureRegion;
 
 public class DOMTimeline {
   public String name;

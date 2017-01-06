@@ -90,8 +90,8 @@ public class FlashPlayer implements Flash {
         runTime += deltaTime;
       }
 
-      Log.d(TAG, "updateRunTime: runTime   " + runTime);
-      Log.d(TAG, "updateRunTime: deltaTime " + deltaTime);
+      Log.d(TAG, "updateRunTime: " + runTime);
+      Log.d(TAG, "updateRunTime: " + deltaTime);
 
     }
   }
