@@ -13,14 +13,13 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import com.netease.glsurfaceView.utils.TextureAtlas;
-import com.netease.glsurfaceView.utils.TextureRegion;
 
 import xfl.DOMTimeline;
-import xfl.Xfl;
+import xfl.XFL;
 
 public class Parser {
 
-  public Xfl parse(InputStream stream, TextureAtlas textureAtlas) throws IOException {
+  public XFL parse(InputStream stream, TextureAtlas textureAtlas) throws IOException {
     //得到 DocumentBuilderFactory 对象, 由该对象可以得到 DocumentBuilder 对象
     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
     try {
@@ -30,13 +29,13 @@ public class Parser {
       Document document = builder.parse(stream);
       //得到 "根节点"
       Element root = document.getDocumentElement();
-      Xfl ret = null;
+      XFL ret = null;
       NodeList timelineList = root.getElementsByTagName("timeline");
       if (timelineList != null && timelineList.getLength() > 0) {
         Element tempDOMTimelineElement = (Element) timelineList.item(0);
         NodeList tempDOMTimelineList = tempDOMTimelineElement.getElementsByTagName("DOMTimeline");
         if (tempDOMTimelineList != null && tempDOMTimelineList.getLength() > 0) {
-          ret = new Xfl();
+          ret = new XFL();
           ret.timelines = new DOMTimeline((Element) tempDOMTimelineList.item(0), textureAtlas);
         }
       }

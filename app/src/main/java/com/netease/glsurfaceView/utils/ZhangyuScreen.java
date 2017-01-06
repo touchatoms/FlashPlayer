@@ -6,7 +6,6 @@ import java.io.InputStream;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.AudioManager;
@@ -17,7 +16,7 @@ import com.netease.frame.flash.Animation;
 import com.netease.frame.flash.FlashPlayer;
 import com.touchatoms.training.testopengl.R;
 
-import xfl.Xfl;
+import xfl.XFL;
 import xfl.player.Parser;
 
 public class ZhangyuScreen extends Screen {
@@ -200,7 +199,7 @@ public class ZhangyuScreen extends Screen {
         texAltasFire = new TextureAtlas(inFire, textureFire);
 
         InputStream inFlash = getResources().openRawResource(R.raw.raise_btn_effect);
-        Xfl xfl = parser.parse(inFlash, texAltasFire);
+        XFL xfl = parser.parse(inFlash, texAltasFire);
         Log.d(TAG, "createBitmap: " + xfl);
       } catch (OutOfMemoryError e) {
         background = null;

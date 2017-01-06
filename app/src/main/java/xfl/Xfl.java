@@ -1,6 +1,6 @@
 package xfl;
 
-public class Xfl {
+public class XFL {
 	public DOMTimeline timelines;
 }
 
