@@ -12,6 +12,8 @@ public class DOMLayer {
   public String name;
   public Color color;
 
+  public int framesCount ;
+
   public DOMFrame[] frames;
 
   public TextureAtlas textureAtlas;
@@ -32,10 +34,9 @@ public class DOMLayer {
     if (layersElement != null && layersElement.getLength() > 0) {
       Element elementsElement = (Element) layersElement.item(0);
       NodeList tempDOMLayerElements = elementsElement.getElementsByTagName("DOMFrame");
-
-      int len = tempDOMLayerElements.getLength();
-      frames = new DOMFrame[len];
-      for (int i = 0; i < len; i++) {
+      framesCount = tempDOMLayerElements.getLength();
+      frames = new DOMFrame[framesCount];
+      for (int i = 0; i < framesCount; i++) {
         frames[i] = new DOMFrame((Element) tempDOMLayerElements.item(i), textureAtlas);
       }
     }

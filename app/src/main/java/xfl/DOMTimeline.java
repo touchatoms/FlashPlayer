@@ -10,6 +10,7 @@ public class DOMTimeline {
   public int currentFrame;
 
   public TextureAtlas textureAtlas;
+  public int layersCount;
 
   public DOMLayer[] layers;
 
@@ -27,10 +28,9 @@ public class DOMTimeline {
     if (layersElement != null && layersElement.getLength() > 0) {
       Element elementsElement = (Element) layersElement.item(0);
       NodeList tempDOMLayerElements = elementsElement.getElementsByTagName("DOMLayer");
-
-      int len = tempDOMLayerElements.getLength();
-      layers = new DOMLayer[len];
-      for (int i = 0; i < len; i++) {
+      layersCount = tempDOMLayerElements.getLength();
+      layers = new DOMLayer[layersCount];
+      for (int i = 0; i < layersCount; i++) {
         layers[i] = new DOMLayer((Element) tempDOMLayerElements.item(i), textureAtlas);
       }
     }

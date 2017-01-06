@@ -8,15 +8,18 @@ import android.util.Log;
 import com.netease.glsurfaceView.utils.TextureAtlas;
 import com.netease.glsurfaceView.utils.TextureRegion;
 
+import xfl.player.PlayerConst;
+
 public class DOMFrame {
+  private static final String TAG = "DOMFrame";
+
   public int index;
   public int duration;
   public int keyMode;
   public String tweenType;
   public int acceleration;
+  public int instanceCount;
   public TextureAtlas textureAtlas;
-
-  private static final String TAG = "DOMFrame";
 
   public DOMSymbolInstance[] elements;
 
@@ -54,11 +57,17 @@ public class DOMFrame {
       NodeList instanceList = elementsElement.getElementsByTagName("DOMSymbolInstance");
 
       int len = instanceList.getLength();
+      instanceCount = len;
       elements = new DOMSymbolInstance[len];
       for (int i = 0; i < len; i++) {
         elements[i] = new DOMSymbolInstance((Element) instanceList.item(i), textureAtlas);
       }
     }
+
+  }
+
+  public float getFrameTime() {
+    return (index + duration) * PlayerConst.FRAME_TIME;
   }
 
 }

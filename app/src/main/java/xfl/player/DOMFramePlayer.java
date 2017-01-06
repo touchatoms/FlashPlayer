@@ -1,18 +1,18 @@
 package xfl.player;
 
-import com.netease.frame.flash.ElementPlayer;
 import com.netease.glsurfaceView.utils.Disposed;
 import com.netease.glsurfaceView.utils.Plane;
 import com.netease.glsurfaceView.utils.TextureAtlas;
 
+import xfl.DOMFrame;
 import xfl.DOMSymbolInstance;
 
 public class DOMFramePlayer implements Disposed {
   private DOMSymbolInstancePlayer[] elementPlayers;
 
-  public DOMFramePlayer(DOMSymbolInstance frame, TextureAtlas texture) {
-    elementPlayers = new ElementPlayer[frame.elementsNumber];
-    for (int i = 0; i < frame.elementsNumber; i++) {
+  public DOMFramePlayer(DOMFrame frame, TextureAtlas texture) {
+    elementPlayers = new DOMSymbolInstancePlayer[frame.instanceCount];
+    for (int i = 0; i < frame.instanceCount; i++) {
       elementPlayers[i] = new DOMSymbolInstancePlayer(frame.elements[i], texture);
     }
   }

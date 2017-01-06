@@ -17,6 +17,7 @@ import com.netease.frame.flash.FlashPlayer;
 import com.touchatoms.training.testopengl.R;
 
 import xfl.XFL;
+import xfl.player.FlashXFLPlayer;
 import xfl.player.Parser;
 
 public class ZhangyuScreen extends Screen {
@@ -97,7 +98,6 @@ public class ZhangyuScreen extends Screen {
 
   public interface OnStopListener {
     void onStop(Kuai2GLView view);
-
     void onStartLocate(Kuai2GLView view);
   }
 
@@ -108,6 +108,7 @@ public class ZhangyuScreen extends Screen {
     }
 
     flashPlayer.updateRunTime(deltaTime);
+    flashXFLPlayer.updateRunTime(deltaTime);
     switch (state) {
       case READY:
         action.calValue(deltaTime);
@@ -145,15 +146,18 @@ public class ZhangyuScreen extends Screen {
       switch (state) {
         case READY:
           plane.setColor(1, 1, 1, action.getValue());
-          flashPlayer.drawFlash(plane);
+//          flashPlayer.drawFlash(plane);
+          flashXFLPlayer.drawFlash(plane);
           break;
         case RUNNING:
           plane.setColor(1, 1, 1, 1);
-          flashPlayer.drawFlash(plane);
+//          flashPlayer.drawFlash(plane);
+          flashXFLPlayer.drawFlash(plane);
           break;
         case POST_RUNNING:
           plane.setColor(1, 1, 1, action.getValue());
-          flashPlayer.drawFlash(plane);
+//          flashPlayer.drawFlash(plane);
+          flashXFLPlayer.drawFlash(plane);
           plane.setColor(1, 1, 1, 1);
           break;
         default:
@@ -167,9 +171,9 @@ public class ZhangyuScreen extends Screen {
   TextureAtlas texAltas;
   TextureAtlas texAltasFire;
   FlashPlayer flashPlayer;
+  FlashXFLPlayer flashXFLPlayer;
 
   private void createBitmap() {
-
 
     try {
       background = BitmapConform.toConformBitmap(
@@ -184,12 +188,23 @@ public class ZhangyuScreen extends Screen {
       plane = null;
     }
 
+    plane = new Plane(640, 800);
     if (background != null) {
 
-      plane = new Plane(640, 800);
       InputStream in = getResources().openRawResource(R.raw.zhangyu);
       Texture texture = new Texture(background);
       texAltas = new TextureAtlas(in, texture);
+
+      Animation.createAnimationFromResouce(R.drawable.zhangyuframe,
+          getResources());
+      flashPlayer = new FlashPlayer(
+          Animation.getFanimation(R.drawable.zhangyuframe).flashElement,
+          texAltas, true, true);
+    } else {
+      plane = null;
+    }
+
+    if (backgroundFire != null) {
 
       Parser parser = new Parser();
       try {
@@ -201,6 +216,8 @@ public class ZhangyuScreen extends Screen {
         InputStream inFlash = getResources().openRawResource(R.raw.raise_btn_effect);
         XFL xfl = parser.parse(inFlash, texAltasFire);
         Log.d(TAG, "createBitmap: " + xfl);
+
+        flashXFLPlayer = new FlashXFLPlayer(xfl.timelines, texAltasFire, true, true);
       } catch (OutOfMemoryError e) {
         background = null;
         plane = null;
@@ -208,11 +225,6 @@ public class ZhangyuScreen extends Screen {
         e.printStackTrace();
       }
 
-      Animation.createAnimationFromResouce(R.drawable.zhangyuframe,
-          getResources());
-      flashPlayer = new FlashPlayer(
-          Animation.getFanimation(R.drawable.zhangyuframe).flashElement,
-          texAltas, true, true);
     } else {
       plane = null;
     }
