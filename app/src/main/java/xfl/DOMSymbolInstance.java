@@ -86,19 +86,4 @@ public class DOMSymbolInstance {
       }
     }
   }
-
-  public void drawElement(Plane plane) {
-    // plane.draw(this.textureRegion, this.element.vertex4.x0+offsetx,
-    // this.element.vertex4.y0+offsety, this.element.vertex4.x1+offsetx,
-    // this.element.vertex4.y1+offsety, this.element.vertex4.x2+offsetx,
-    // this.element.vertex4.y2+offsety, this.element.vertex4.x3+offsetx,
-    // this.element.vertex4.y3+offsety);
-    // plane.setColor(1, 1, 1, this.element.alphaMultiplier);
-    plane.draw(this.textureRegion, this.matrix.a,
-        this.matrix.b, this.matrix.c,
-        this.matrix.d, this.matrix.tx,
-        this.matrix.ty, this.matrix.a + this.matrix.c - this.matrix.b,
-        this.matrix.d + this.matrix.ty - this.matrix.tx);
-  }
-
 }

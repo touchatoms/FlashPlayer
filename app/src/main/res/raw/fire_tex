@@ -1,6 +1,6 @@
 
 fire_tex.png
-size: 500,500
+size: 512,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none

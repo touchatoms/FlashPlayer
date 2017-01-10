@@ -5,7 +5,6 @@ import com.netease.glsurfaceView.utils.Plane;
 import com.netease.glsurfaceView.utils.TextureAtlas;
 
 import xfl.DOMFrame;
-import xfl.DOMSymbolInstance;
 
 public class DOMFramePlayer implements Disposed {
   private DOMSymbolInstancePlayer[] elementPlayers;
