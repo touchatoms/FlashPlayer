@@ -188,7 +188,7 @@ public class ZhangyuScreen extends Screen {
       plane = null;
     }
 
-    plane = new Plane(320, 400);
+    plane = new Plane(1000, 1000);
     if (background != null) {
 
       InputStream in = getResources().openRawResource(R.raw.zhangyu);

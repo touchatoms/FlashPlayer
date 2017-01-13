@@ -23,36 +23,54 @@ public class DOMSymbolInstancePlayer implements Disposed {
 
   public void drawElement(Plane plane) {
 
-    float x1 = 0; //vertices[X1];
-    float y1 = 0;//vertices[Y1];
-    float x2 = 0;//vertices[X2];
-    float y2 = this.textureRegion.height;//vertices[Y2];
-    float x3 = this.textureRegion.width;//vertices[X3];
-    float y3 = this.textureRegion.height;//vertices[Y3];
-    float x4 = this.textureRegion.width;//vertices[X4];
-    float y4 = 0;//vertices[Y4];
+//    float x1 = 0; //vertices[X1];
+//    float y1 = 0;//vertices[Y1];
+//    float x2 = 0;//vertices[X2];
+//    float y2 = this.textureRegion.height;//vertices[Y2];
+//    float x3 = this.textureRegion.width;//vertices[X3];
+//    float y3 = this.textureRegion.height;//vertices[Y3];
+//    float x4 = this.textureRegion.width;//vertices[X4];
+//    float y4 = 0;//vertices[Y4];
+//
+//
+//
+//
+//    float a = (float) instance.matrix.a;
+//    float b = (float) instance.matrix.b;
+//    float c = (float) instance.matrix.c;
+//    float d = (float) instance.matrix.d;
+//    float tx = (float)instance.matrix.tx;//- animation.W/2);
+//    float ty = (float)instance.matrix.ty;// - animation.H/2);
+//
+//
+//
+//    float fx1 = (float) (x1 *  a  + y1 * c) + tx;
+//    float fy1 = (float) (x1 *  b  + y1 * d) + ty;
+//    float fx2 = (float) (x2 *  a  + y2 * c) + tx;
+//    float fy2 = (float) (x2 *  b  + y2 * d) + ty;
+//    float fx3 = (float) (x3 *  a  + y3 * c) + tx;
+//    float fy3 = (float) (x3 *  b  + y3 * d) + ty;
+//    float fx4 = (float) (x4 *  a  + y4 * c) + tx;
+//    float fy4 = (float) (x4 *  b  + y4 * d) + ty;
 
 
+//    float fx1 = -(float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
+//    float fy1 = -(float) 0.5 * instance.matrix.b * this.textureRegion.height + instance.matrix.ty;
+//    float fx2 = -(float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
+//    float fy2 = (float) 0.5 * instance.matrix.b * this.textureRegion.height + instance.matrix.ty;
+//    float fx3 = (float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
+//    float fy3 = -(float) 0.5 * instance.matrix.b * this.textureRegion.height + instance.matrix.ty;
+//    float fx4 = (float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
+//    float fy4 = (float) 0.5 * instance.matrix.b * this.textureRegion.height + instance.matrix.ty;
 
-
-    float a = (float) instance.matrix.a;
-    float b = (float) instance.matrix.b;
-    float c = (float) instance.matrix.c;
-    float d = (float) instance.matrix.d;
-    float tx = (float)instance.matrix.tx;//- animation.W/2);
-    float ty = (float)instance.matrix.ty;// - animation.H/2);
-
-
-
-    float fx1 = (float) (x1 *  a  + y1 * c) + tx;
-    float fy1 = (float) (x1 *  b  + y1 * d) + ty;
-    float fx2 = (float) (x2 *  a  + y2 * c) + tx;
-    float fy2 = (float) (x2 *  b  + y2 * d) + ty;
-    float fx3 = (float) (x3 *  a  + y3 * c) + tx;
-    float fy3 = (float) (x3 *  b  + y3 * d) + ty;
-    float fx4 = (float) (x4 *  a  + y4 * c) + tx;
-    float fy4 = (float) (x4 *  b  + y4 * d) + ty;
-
+    float fx1 = -(float) 0.5 * 512 ;
+    float fy1 = -(float) 0.5 * 1024;
+    float fx2 = -(float) 0.5 * 512 ;
+    float fy2 = (float) 0.5 * 1024;
+    float fx3 = (float) 0.5 * 512 ;
+    float fy3 = -(float) 0.5 * 1024;
+    float fx4 = (float) 0.5 * 512 ;
+    float fy4 = (float) 0.5 * 1024;
 
 //    float x0 = instance.matrix.a;
 //    float x1 = instance.matrix.b;
