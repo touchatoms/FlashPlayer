@@ -231,12 +231,12 @@ public class Plane implements Disposed {
 
     tempindex = index * 6;
     int temp2 = index * 4;
-    indices[tempindex++] = (short) temp2;
+    indices[tempindex++] = (short) (temp2 + 0);
     indices[tempindex++] = (short) (temp2 + 1);
     indices[tempindex++] = (short) (temp2 + 2);
+    indices[tempindex++] = (short) (temp2 + 0);
     indices[tempindex++] = (short) (temp2 + 2);
     indices[tempindex++] = (short) (temp2 + 3);
-    indices[tempindex++] = (short) (temp2 + 0);
 
     index++;
   }

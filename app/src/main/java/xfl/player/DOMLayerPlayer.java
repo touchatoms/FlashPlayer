@@ -7,7 +7,7 @@ import com.netease.glsurfaceView.utils.TextureAtlas;
 import xfl.DOMLayer;
 
 public class DOMLayerPlayer implements Disposed {
-  private int frameindex = 0;
+  private int frameIndex = 0;
   public DOMLayer layer;
   private DOMFramePlayer[] framePlayers;
 
@@ -20,7 +20,7 @@ public class DOMLayerPlayer implements Disposed {
   }
 
   public void drawLayer(Plane plane) {
-    framePlayers[frameindex].drawFrame(plane);
+    framePlayers[frameIndex].drawFrame(plane);
   }
 
   public void drawLayerEnd(Plane plane) {
@@ -29,19 +29,19 @@ public class DOMLayerPlayer implements Disposed {
 
   public void updataLayer(float runTime) {
 
-    float frameTime = (layer.frames[frameindex].index + layer.frames[frameindex].duration) * PlayerConst.FRAME_TIME;
+    float frameTime = (layer.frames[frameIndex].index + layer.frames[frameIndex].duration) * PlayerConst.FRAME_TIME;
 
     if (runTime >= frameTime) {
-      frameindex++;
+      frameIndex++;
     }
-    if (frameindex >= layer.framesCount) {
-      frameindex = layer.framesCount - 1;
-      // System.out.println("frame  :" + frameindex);
+    if (frameIndex >= layer.framesCount) {
+      frameIndex = layer.framesCount - 1;
+      System.out.println("frame  :" + frameIndex);
     }
   }
 
   public void reset() {
-    frameindex = 0;
+    frameIndex = 0;
   }
 
   @Override

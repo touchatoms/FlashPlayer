@@ -53,7 +53,6 @@ public class DOMSymbolInstancePlayer implements Disposed {
 //    float fx4 = (float) (x4 *  a  + y4 * c) + tx;
 //    float fy4 = (float) (x4 *  b  + y4 * d) + ty;
 
-
 //    float fx1 = -(float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
 //    float fy1 = -(float) 0.5 * instance.matrix.b * this.textureRegion.height + instance.matrix.ty;
 //    float fx2 = -(float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
@@ -63,28 +62,32 @@ public class DOMSymbolInstancePlayer implements Disposed {
 //    float fx4 = (float) 0.5 * instance.matrix.a * this.textureRegion.width + instance.matrix.tx;
 //    float fy4 = (float) 0.5 * instance.matrix.b * this.textureRegion.height + instance.matrix.ty;
 
-    float fx1 = -(float) 0.5 * 512 ;
-    float fy1 = -(float) 0.5 * 1024;
-    float fx2 = -(float) 0.5 * 512 ;
-    float fy2 = (float) 0.5 * 1024;
-    float fx3 = (float) 0.5 * 512 ;
-    float fy3 = -(float) 0.5 * 1024;
-    float fx4 = (float) 0.5 * 512 ;
-    float fy4 = (float) 0.5 * 1024;
+//    float fx1 = -(float) 0.5 * 512 ;
+//    float fy1 = -(float) 0.5 * 1024;
+//    float fx2 = -(float) 0.5 * 512 ;
+//    float fy2 = (float) 0.5 * 1024;
+//    float fx3 = (float) 0.5 * 512 ;
+//    float fy3 = -(float) 0.5 * 1024;
+//    float fx4 = (float) 0.5 * 512 ;
+//    float fy4 = (float) 0.5 * 1024;
 
-//    float x0 = instance.matrix.a;
-//    float x1 = instance.matrix.b;
-//    float x2 = instance.matrix.c;
-//    float y0 = instance.matrix.d;
-//    float y1 = instance.matrix.tx;//- animation.W/2);
-//    float y2 = instance.matrix.ty;// - animation.H/2);
-//    float x3 = x0 + (x2 - x1);
-//    float y3 = y0 + (y2 - y1);
+    int ratio = 4;
+
+    float x0 = ((float) 1 * 512 * instance.matrix.a + 1 * 1024 * instance.matrix.c + instance.matrix.tx);
+    float y0 = -((float) 1 * 512 * instance.matrix.b + 1 * 1024 * instance.matrix.d + instance.matrix.ty);
+
+    float x1 = (float) 1 * 512 * instance.matrix.a + 1 * 1024 * instance.matrix.c + instance.matrix.tx;
+    float y1 = (float) 1 * 512 * instance.matrix.b + 1 * 1024 * instance.matrix.d + instance.matrix.ty;
+
+    float x2 = -((float) 1 * 512 * instance.matrix.a + 1 * 1024 * instance.matrix.c + instance.matrix.tx);
+    float y2 = (float) 1 * 512 * instance.matrix.b + 1 * 1024 * instance.matrix.d + instance.matrix.ty;
+
+    float x3 = -((float) 1 * 512 * instance.matrix.a + 1 * 1024 * instance.matrix.c + instance.matrix.tx);
+    float y3 = -((float) 1 * 512 * instance.matrix.b + 1 * 1024 * instance.matrix.d + instance.matrix.ty);
 
     Log.d(TAG, "drawElement: " + instance);
 
-//    plane.draw(this.textureRegion, x0, y0, x1, y1, x2, y2, x3, y3);
-    plane.draw(this.textureRegion, fx1, fy1, fx2, fy2, fx3, fy3, fx4, fy4);
+    plane.draw(this.textureRegion, x0 / ratio, y0 / ratio, x1 / ratio, y1 / ratio, x2 / ratio, y2 / ratio, x3 / ratio, y3 / ratio);
   }
 
   @Override
