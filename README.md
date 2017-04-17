@@ -1,2 +1,2 @@
 # TestOpenGL
-Android OpenGL ES demo 
+** Android OpenGL ES demo **
